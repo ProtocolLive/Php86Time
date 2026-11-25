@@ -1,0 +1,21 @@
+{
+  "name": "protocollive/php86time",
+  "description": "Time namespace classes for PHP < 8.6",
+  "type": "library",
+  "require": {
+    "php": "<8.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabio Carpi",
+      "email": "protocollive@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "\\Time\\": "src/"
+    }
+  }
+}
